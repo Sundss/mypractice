@@ -24,7 +24,7 @@ public class RegularExpressionMatching {
 		int j=0;
 		boolean result = false;
 		boolean trueResult = false;
-		boolean repeat = false;
+//		boolean repeat = false;
 		for(int i = 0;i<s.length()&&parse[j][0]!=0;){
 			if(parse[j][0]=='.'){
 				j++;
@@ -41,13 +41,13 @@ public class RegularExpressionMatching {
 				i++;
 			}else if(s.charAt(i)==parse[j][0]){
 				if(parse[j][1]=='*'){
-					repeat = true;
+//					repeat = true;
 					result = true;
 					i++;
 				}else {
 					j++;
 					i++;
-					repeat = false;
+//					repeat = false;
 				}
 			}
 			

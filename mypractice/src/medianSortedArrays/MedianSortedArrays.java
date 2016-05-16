@@ -1,7 +1,6 @@
 package medianSortedArrays;
 
 import java.util.Arrays;
-import java.util.Collection;
 import java.util.Random;
 
 public class MedianSortedArrays {

@@ -10,7 +10,7 @@ public class AddTwoNum {
 	 * }
 	 */
 	public static void main(String[] arg){
-		String input = "(2 -> 4 -> 3) + (5 -> 6 -> 4)";
+//		String input = "(2 -> 4 -> 3) + (5 -> 6 -> 4)";
 		ListNode first = new ListNode(0);
 		ListNode second = new ListNode(7);
 		second.add(3);

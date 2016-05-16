@@ -1,12 +1,11 @@
 /** 
 * Copyright 2016 Hushu Info Tech Co. Ltd.  All rights reserved.
 * @author sun
-* @date 2016-4-18 обнГ3:14:12 
+* @date 2016-4-18 О©╫О©╫О©╫О©╫3:14:12 
 * @version V1.0
 */
 package sort;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;

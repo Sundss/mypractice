@@ -13,7 +13,7 @@ public class VolatileTest implements Runnable {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		VolatileTest vt = new VolatileTest();
+//		VolatileTest vt = new VolatileTest();
 		testT.put("1", 0);
 		for(int i = 0;i<200;i++){
 			new Thread(new VolatileTest(),i+"").start();

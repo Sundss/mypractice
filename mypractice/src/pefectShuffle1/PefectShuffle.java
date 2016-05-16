@@ -1,7 +1,6 @@
 package pefectShuffle1;
 
 import java.util.Arrays;
-import java.util.Collection;
 
 public class PefectShuffle {
 	public static void main(String[] arg) {
@@ -16,7 +15,6 @@ public class PefectShuffle {
 		System.out.println(a);
 	}
 
-	// ·­×ª×Ö·û´®Ê±¼ä¸´ÔÓ¶ÈO(to - from)
 	public void reverse(int[] a) {
 		int t;
 		int from = 0;
@@ -29,7 +27,6 @@ public class PefectShuffle {
 
 	}
 
-	// Ñ­»·ÓÒÒÆnumÎ» Ê±¼ä¸´ÔÓ¶ÈO(n)
 	public void right_rotate(int[] a, int num, int n) {
 		// reverse(a, 1, n - num);
 		// reverse(a, n - num + 1,n);
@@ -59,7 +56,7 @@ public class PefectShuffle {
 		a[from] = last;
 	}
 
-	// Ê±¼äO(n)£¬¿Õ¼äO(1)
+	// Ê±ï¿½ï¿½O(n)ï¿½ï¿½ï¿½Õ¼ï¿½O(1)
 	public void perfect_shuffle3(int[] a, int n) {
 		int n2, m, i, k, t;
 		for (; n > 1;) {
